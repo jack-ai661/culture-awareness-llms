@@ -100,6 +100,23 @@
 - Building Knowledge-Guided Lexica to Model Cultural Variation, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.12/)]
 
 ### Social Norms and Morals
+- NormBank: A Knowledge Bank of Situational Social Norms, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.429/)] [[Code](https://github.com/SALT-NLP/normbank)]
+- NormDial: A Comparable Bilingual Synthetic Dialog Dataset for Modeling Social Norm Adherence and Violation, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.974/)] [[Code](https://github.com/Aochong-Li/NormDial)]
+- RENOVI: A Benchmark Towards Remediating Norm Violations in Socio-Cultural Conversations, <ins>NAACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-naacl.196/)] [[Code](https://github.com/zhanhl316/ReNoVi)]
+- Social Norms in Cinema: A Cross-Cultural Analysis of Shame, Pride and Prejudice, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.11333)]
+- NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.12464)] [[Code](https://github.com/Akhila-Yerukola/NormAd)]
+- CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies, <ins>arXiv, 2024</ins> [[Paper](paper_link)] [[Code](https://huggingface.co/datasets/SALT-NLP/CultureBank)]
+- EtiCor: Corpus for Analyzing LLMs for Etiquettes, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.428/)] [[Code](https://github.com/Exploration-Lab/EtiCor)]
+- Measuring Social Norms of Large Language Models, <ins>NAACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-naacl.43/)] [[Code](https://github.com/socialnormdataset/socialagent)]
+- Sociocultural Norm Similarities and Differences via Situational Alignment and Explainable Textual Entailment, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.215/)] [[Code](https://github.com/asaakyan/SocNormNLI)]
+- NORMSAGE: Multi-Lingual Multi-Cultural Norm Discovery from Conversations On-the-Fly, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.941/)] [[Code](https://github.com/yrf1/NormSage)]
+- NormMark: A Weakly Supervised Markov Model for Socio-cultural Norm Discovery, <ins>ACL Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-acl.314/)]
+- Knowledge of cultural moral norms in large language models, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.26/)] [[Code](https://github.com/AidaRamezani/cultural_inference)]
+- Speaking Multiple Languages Affects the Moral Bias of Language Models, <ins>ACL Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-acl.134/)] [[Code](https://github.com/kathyhaem/multiling-moral-bias)]
+- Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them in, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.560/)]
+- The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems, <ins>ACL, 2022</ins> [[Paper](https://aclanthology.org/2022.acl-long.261/)] [[Code](https://github.com/SALT-NLP/mic)]
+- CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.703/)] [[Code](https://github.com/tjunlp-lab/CMoralEval)]
+
 ### Social Bias and Stereotype
 ### Toxicity and Safety
 ### Emotional and Subjective Topics
