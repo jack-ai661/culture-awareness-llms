@@ -19,13 +19,13 @@
 }
 ```
 
-# About
+## About
 Large-scale deployment of large language models (LLMs) in various applications, such as chatbots and virtual assistants, requires LLMs to be culturally sensitive to the user to ensure inclusivity. Culture has been widely studied in psychology and anthropology, and there has been a recent surge in research on making LLMs more culturally inclusive in LLMs that goes beyond multilinguality and builds on findings from psychology and anthropology.  In this paper, we survey efforts towards incorporating cultural awareness into text-based and multimodal LLMs. We start by defining cultural awareness in LLMs, taking the definitions of culture from anthropology and psychology as a point of departure. We then examine methodologies adopted for creating cross-cultural datasets, strategies for cultural inclusion in downstream tasks, and methodologies that have been used for benchmarking cultural awareness in LLMs. Further, we discuss the ethical implications of cultural alignment, the role of Human-Computer Interaction in driving cultural inclusion in LLMs, and the role of cultural alignment in driving social science research. We finally provide pointers to future research based on our findings about gaps in the literature.
 
 
-# 🌎 Language and Region Coverage
-![Fig 1](./img/culture_map.png)
-![Fig 2](./img/lang_dist.png)
+## 🌎 Language and Region Coverage
+![image](./img/lang_dist.png){: width="70%"}
+![image](./img/culture_map.png){: width="70%"}
 
 Fig 1 presents the frequency distribution of languages used in the evaluations, showing only languages with a frequency of two or more. The colors indicate the language resource classes, with darker colors (with higher numbers) representing higher-resource languages. most studies collect data in English. Chinese, Spanish, and German are other high-resource languages observed frequently in cultural studies. Notably, for most languages classified as level 2 or below, there are at most seven studies, with the only exception of Swahili, underscoring the gap in research.
 
@@ -35,51 +35,51 @@ and Democratic) countries, along with regions such as East Asia, Indonesia, and 
 Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.00860).
 
 
-# 📁 Table of Content
+## 📁 Table of Content
 - [Survey of Cultural Awareness in Language Models: Text and Beyond](#survey-of-cultural-awareness-in-language-models-text-and-beyond)
   - [(Being Updated)](#being-updated)
-- [About](#about)
-- [🌎 Language and Region Coverage](#-language-and-region-coverage)
-- [📁 Table of Content](#-table-of-content)
-- [💬 Language Models and Culture](#-language-models-and-culture)
-  - [Cultural Alignment: Methodologies and Goals](#cultural-alignment-methodologies-and-goals)
-    - [Training-Based Methods](#training-based-methods)
-      - [Pre-training](#pre-training)
-      - [Fine-tuning](#fine-tuning)
-      - [Others](#others)
-    - [Training-Free Methods](#training-free-methods)
-    - [Goal-Specific Alignment Strategies](#goal-specific-alignment-strategies)
-  - [Benchmarks and Evaluation](#benchmarks-and-evaluation)
-    - [Academic Knowledge](#academic-knowledge)
-    - [Commonsense Knowledge](#commonsense-knowledge)
-      - [Culture-Specific](#culture-specific)
-      - [Multiculture Monolingual](#multiculture-monolingual)
-      - [Multiculture Multilingual](#multiculture-multilingual)
-    - [Social Values](#social-values)
-    - [Social Norms and Morals](#social-norms-and-morals)
-    - [Social Bias and Stereotype](#social-bias-and-stereotype)
-    - [Toxicity and Safety](#toxicity-and-safety)
-    - [Emotional and Subjective Topics](#emotional-and-subjective-topics)
-    - [Linguistics](#linguistics)
-      - [Language Properties](#language-properties)
-      - [Linguistic Varieties](#linguistic-varieties)
-      - [Literary Forms](#literary-forms)
-      - [Culturally-Adapted Translation](#culturally-adapted-translation)
-      - [Culturally-Adapted Dialogue Systems](#culturally-adapted-dialogue-systems)
-- [🖼️ Vision Models and Culture](#️-vision-models-and-culture)
-  - [Language Output Tasks](#language-output-tasks)
-  - [Image Output Tasks](#image-output-tasks)
-  - [Art Forms Related Tasks](#art-forms-related-tasks)
-  - [Miscellaneous Tasks](#miscellaneous-tasks)
-- [🎞️ Other Modalities and Culture](#️-other-modalities-and-culture)
-  - [Audio and Speech](#audio-and-speech)
-  - [Video](#video)
+  - [About](#about)
+  - [🌎 Language and Region Coverage](#-language-and-region-coverage)
+  - [📁 Table of Content](#-table-of-content)
+  - [💬 Language Models and Culture](#-language-models-and-culture)
+    - [Cultural Alignment: Methodologies and Goals](#cultural-alignment-methodologies-and-goals)
+      - [Training-Based Methods](#training-based-methods)
+        - [Pre-training](#pre-training)
+        - [Fine-tuning](#fine-tuning)
+        - [Others](#others)
+      - [Training-Free Methods](#training-free-methods)
+      - [Goal-Specific Alignment Strategies](#goal-specific-alignment-strategies)
+    - [Benchmarks and Evaluation](#benchmarks-and-evaluation)
+      - [Academic Knowledge](#academic-knowledge)
+      - [Commonsense Knowledge](#commonsense-knowledge)
+        - [Culture-Specific](#culture-specific)
+        - [Multiculture Monolingual](#multiculture-monolingual)
+        - [Multiculture Multilingual](#multiculture-multilingual)
+      - [Social Values](#social-values)
+      - [Social Norms and Morals](#social-norms-and-morals)
+      - [Social Bias and Stereotype](#social-bias-and-stereotype)
+      - [Toxicity and Safety](#toxicity-and-safety)
+      - [Emotional and Subjective Topics](#emotional-and-subjective-topics)
+      - [Linguistics](#linguistics)
+        - [Language Properties](#language-properties)
+        - [Linguistic Varieties](#linguistic-varieties)
+        - [Literary Forms](#literary-forms)
+        - [Culturally-Adapted Translation](#culturally-adapted-translation)
+        - [Culturally-Adapted Dialogue Systems](#culturally-adapted-dialogue-systems)
+  - [🖼️ Vision Models and Culture](#️-vision-models-and-culture)
+    - [Language Output Tasks](#language-output-tasks)
+    - [Image Output Tasks](#image-output-tasks)
+    - [Art Forms Related Tasks](#art-forms-related-tasks)
+    - [Miscellaneous Tasks](#miscellaneous-tasks)
+  - [🎞️ Other Modalities and Culture](#️-other-modalities-and-culture)
+    - [Audio and Speech](#audio-and-speech)
+    - [Video](#video)
 
 
-# 💬 Language Models and Culture
-## Cultural Alignment: Methodologies and Goals
-### Training-Based Methods
-#### Pre-training
+## 💬 Language Models and Culture
+### Cultural Alignment: Methodologies and Goals
+#### Training-Based Methods
+##### Pre-training
 - HyperCLOVA X Technical Report, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.01954)] [[Code](https://www.ncloud.com/product/aiService/clovaStudio)]
 - PersianLLaMA: Towards Building First Persian Large Language Model, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.15713)] [[Code](https://huggingface.co/ViraIntelligentDataMining/PersianLLaMA-13B)]
 - JASMINE: Arabic GPT Models for Few-Shot Learning, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.1040/)] [[Code](https://huggingface.co/UBC-NLP/Jasmine-350M)]
@@ -95,7 +95,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - "Vorbeşti Româneşte?" A Recipe to Train Powerful Romanian LLMs with English Instructions, <ins>EMNLP Findings, 2024</ins> [[Paper](https://arxiv.org/abs/2406.18266)] [[Code](https://huggingface.co/OpenLLM-Ro)]
 - BertaQA: How Much Do Language Models Know About Local Culture?, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.07302)] [[Code](https://github.com/juletx/BertaQA)]
 
-#### Fine-tuning
+##### Fine-tuning
 - Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.06138)] [[Code](https://huggingface.co/indonlp/cendol)]
 - COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.18058)] [[Code](https://huggingface.co/datasets/m-a-p/COIG-CQIA)]
 - CRAFT: Extracting and Tuning Cultural Instructions from the Wild, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2405.03138)] [[Code](https://github.com/SeaEval/CRAFT)]
@@ -111,13 +111,13 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Generalizable Multilingual Hate Speech Detection on Low Resource Indian Languages using Fair Selection in Federated Learning, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.400/)]
 
 
-#### Others
+##### Others
 - Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration, <ins>EMNLP, 2024</ins> [[Paper](https://arxiv.org/abs/2406.15951)] [[Code](https://github.com/BunsenFeng/modular_pluralism/tree/main)]
 - An Unsupervised Framework for Adaptive Context-aware Simplified-Traditional Chinese Character Conversion, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.118/)] [[Code](https://github.com/NLPInBLCU/STCC)]
 - Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://aclanthology.org/2024.c3nlp-1.5/)]
 
 
-### Training-Free Methods
+#### Training-Free Methods
 - Investigating Cultural Alignment of Large Language Models, <ins>ACL, 2024</ins> [[Paper](https://arxiv.org/abs/2402.13231)] [[Code](https://github.com/bkhmsi/cultural-trends)]
 - Cultural bias and cultural alignment of large language models, <ins>PNAS Nexus, 2024</ins> [[Paper](https://academic.oup.com/pnasnexus/article/3/9/pgae346/7756548)]
 - CULTURE-GEN: Revealing Global Cultural Perception in Language Models through Natural Language Prompting, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.10199)] [[Code](https://github.com/huihanlhh/Culture-Gen/)]
@@ -128,7 +128,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Does Mapo Tofu Contain Coffee? Probing LLMs for Food-related Cultural Knowledge, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.06833)] [[Code](https://github.com/lizhou21/FmLAMA-master)]
 - Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.316/)]
 
-### Goal-Specific Alignment Strategies
+#### Goal-Specific Alignment Strategies
 - Harmonizing Global Voices: Culturally-Aware Models for Enhanced Content Moderation, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.02401)]
 - NativQA: Multilingual Culturally-Aligned Natural Query for LLMs, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2407.09823)] [[Code](https://nativqa.gitlab.io/)]
 - Improving Diversity of Demographic Representation in Large Language Models via Collective-Critiques and Self-Voting, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.643/)]
@@ -139,8 +139,8 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Indian-BhED: A Dataset for Measuring India-Centric Biases in Large Language Models, <ins>GoodIT, 2024</ins> [[Paper](https://dl.acm.org/doi/abs/10.1145/3677525.3678666)] [[Code](https://github.com/khyatikhandelwal/Indian-LLMs-Bias)]
 
 
-## Benchmarks and Evaluation
-### Academic Knowledge
+### Benchmarks and Evaluation
+#### Academic Knowledge
 - ArabicMMLU: Assessing Massive Multitask Language Understanding in Arabic, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.334/)] [[Code](https://github.com/mbzuai-nlp/ArabicMMLU)]
 - CMMLU: Measuring massive multitask language understanding in Chinese, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.671/)] [[Code](https://github.com/haonan-li/CMMLU)]
 - Large language models only pass primary school exams in Indonesia: A comprehensive test on IndoMMLU, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.760/)] [[Code](https://github.com/fajri91/IndoMMLU)]
@@ -156,8 +156,8 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - M3Exam: A Multilingual, Multimodal, Multilevel Benchmark for Examining Large Language Models, <ins>NeurIPS (Datasets and Benchmarks), 2023</ins> [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/117c5c8622b0d539f74f6d1fb082a2e9-Abstract-Datasets_and_Benchmarks.html)] [[Code](https://github.com/DAMO-NLP-SG/M3Exam)]
 
 
-### Commonsense Knowledge
-#### Culture-Specific
+#### Commonsense Knowledge
+##### Culture-Specific
 - CIF-Bench: A Chinese Instruction-Following Benchmark for Evaluating the Generalizability of Large Language Models, <ins>ACL, 2024</ins> [[Paper](https://arxiv.org/abs/2402.13109)] [[Code](https://github.com/yizhilll/CIF-Bench)]
 - FoundaBench: Evaluating Chinese Fundamental Knowledge Capabilities of Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.18359)]
 - COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.77/)] [[Code](https://github.com/haryoa/COPAL-ID)]
@@ -173,7 +173,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Benchmarking Cognitive Domains for LLMs: Insights from Taiwanese Hakka Culture, <ins>O-COCOSDA, 2024</ins> [[Paper](https://arxiv.org/abs/2409.01556)]
 - PARIKSHA: A Large-Scale Investigation of Human-LLM Evaluator Agreement on Multilingual and Multi-Cultural Data, <ins>EMNLP, 2024</ins> [[Paper](https://arxiv.org/abs/2406.15053)] [[Code](https://github.com/WattsIshaan/PARIKSHA)]
 
-#### Multiculture Monolingual
+##### Multiculture Monolingual
 - Extracting Cultural Commonsense Knowledge at Scale, <ins>WWW, 2023</ins> [[Paper](https://dl.acm.org/doi/abs/10.1145/3543507.3583535)] [[Code](https://candle.mpi-inf.mpg.de/)]
 - Having Beer after Prayer? Measuring Cultural Bias in Large Language Models, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2305.14456)] [[Code](https://github.com/tareknaous/camel)]
 - Massively Multi-Cultural Knowledge Acquisition & LM Benchmarking, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.09369)] [[Code](https://github.com/yrf1/LLM-MassiveMulticultureNormsKnowledge-NCLB)]
@@ -186,7 +186,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - FORK: A Bite-Sized Test Set for Probing Culinary Cultural Biases in Commonsense Reasoning Models, <ins>ACL Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-acl.631/)] [[Code](https://github.com/shramay-palta/FORK_ACL2023)]
 - Global-Liar: Factuality of LLMs over Time and Geographic Regions, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2401.17839)]
 
-#### Multiculture Multilingual
+##### Multiculture Multilingual
 - A diverse Multilingual News Headlines Dataset from around the World, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-short.55/)] [[Code](https://huggingface.co/datasets/felixludos/babel-briefings)]
 - BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages, <ins>NeurIPS (Datasets and Benchmarks), 2024</ins> [[Paper](https://arxiv.org/abs/2406.09948)] [[Code](https://github.com/nlee0212/BLEnD)]
 - CaLMQA: Exploring culturally specific long-form question answering across 23 languages, <ins>CoRR, 2024</ins> [[Paper](https://arxiv.org/abs/2406.17761)] [[Code](https://github.com/2015aroras/CaLMQA)]
@@ -202,7 +202,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Good Night at 4 pm?! Time Expressions in Different Cultures, <ins>ACL Findings, 2022</ins> [[Paper](https://aclanthology.org/2022.findings-acl.224/)] [[Code](https://github.com/vered1986/time_expressions)]
 - Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models, <ins>CoRR, 2023</ins> [[Paper](https://arxiv.org/abs/2310.12481)]
 
-### Social Values
+#### Social Values
 - Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Value, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.486/)]
 - The Ghost in the Machine has an American accent: value conflict in GPT-3, <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2203.07785)]
 - CDEval: A Benchmark for Measuring the Cultural Dimensions of Large Language Models, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2311.16421)] [[Code](https://huggingface.co/datasets/Rykeryuhang/CDEval)]
@@ -218,7 +218,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Investigating Human Values in Online Communities, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.14177)] [[Code](https://github.com/copenlu/HumanValues)]
 - Building Knowledge-Guided Lexica to Model Cultural Variation, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.12/)]
 
-### Social Norms and Morals
+#### Social Norms and Morals
 - NormBank: A Knowledge Bank of Situational Social Norms, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.429/)] [[Code](https://github.com/SALT-NLP/normbank)]
 - NormDial: A Comparable Bilingual Synthetic Dialog Dataset for Modeling Social Norm Adherence and Violation, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.974/)] [[Code](https://github.com/Aochong-Li/NormDial)]
 - RENOVI: A Benchmark Towards Remediating Norm Violations in Socio-Cultural Conversations, <ins>NAACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-naacl.196/)] [[Code](https://github.com/zhanhl316/ReNoVi)]
@@ -236,7 +236,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems, <ins>ACL, 2022</ins> [[Paper](https://aclanthology.org/2022.acl-long.261/)] [[Code](https://github.com/SALT-NLP/mic)]
 - CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.703/)] [[Code](https://github.com/tjunlp-lab/CMoralEval)]
 
-### Social Bias and Stereotype
+#### Social Bias and Stereotype
 - The (Undesired) Attenuation of Human Biases by Multilinguality, <ins>EMNLP, 2022</ins> [[Paper](https://aclanthology.org/2022.emnlp-main.133/)] [[Code](https://github.com/cristinae/CA-WEAT)]
 - Global Voices, Local Biases: Socio-Cultural Prejudices across Languages, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.981/)] [[Code](https://github.com/iamshnoo/weathub)]
 - Towards Region-aware Bias Evaluation Metrics, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.16152)]
@@ -257,7 +257,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Quite Good, but Not Enough: Nationality Bias in Large Language Models - a Case Study of ChatGPT, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1180/)] [[Code](https://github.com/weikang-wang/NationalityBiasOfChatGPT)]
 - "They are uncultured": Unveiling Covert Harms and Social Threats in LLM Generated Conversations, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05378)] [[Code](https://huggingface.co/SocialCompUW/CHAST)]
 
-### Toxicity and Safety
+#### Toxicity and Safety
 - Resources for Multilingual Hate Speech Detection, <ins>WOAH Workshop, 2024</ins> [[Paper](https://aclanthology.org/2022.woah-1.12/)]
 - AraTrust: An Evaluation of Trustworthiness for LLMs in Arabic, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.09017)]
 - KOLD: Korean Offensive Language Dataset, <ins>EMNLP, 2022</ins> [[Paper](https://aclanthology.org/2022.emnlp-main.744/)] [[Code](https://github.com/boychaboy/KOLD)]
@@ -272,7 +272,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - WalledEval: A Comprehensive Safety Evaluation Toolkit for Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2408.03837)] [[Code](https://github.com/walledai/walledeval)]
 - AART: AI-Assisted Red-Teaming with Diverse Data Generation for New LLM-powered Applications, <ins>EMNLP (Industry), 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-industry.37/)] [[Code](https://github.com/google-research-datasets/aart-ai-safety-dataset)]
 
-### Emotional and Subjective Topics
+#### Emotional and Subjective Topics
 - Multilingual Language Models are not Multicultural: A Case Study in Emotion, <ins>WASSA Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.wassa-1.19/)] [[Code](https://github.com/shreyahavaldar/Multicultural_Emotion/)]
 - Are Generative Language Models Multicultural? A Study on Hausa Culture and Emotions using ChatGPT, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://aclanthology.org/2024.c3nlp-1.8/)]
 - Beyond Metrics: Evaluating LLMs' Effectiveness in Culturally Nuanced, Low-Resource Real-World Scenarios, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.00343)]
@@ -281,13 +281,13 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - ThatiAR: Subjectivity Detection in Arabic News Sentences, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.05559)] [[Code](code_link)]
 - Cross-cultural Inspiration Detection and Analysis in Real and LLM-generated Social Media Data, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.12933)] [[Code](https://github.com/MichiganNLP/cross_inspiration)]
 
-### Linguistics
-#### Language Properties
+#### Linguistics
+##### Language Properties
 - Multi-lingual and Multi-cultural Figurative Language Understanding, <ins>ACL Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-acl.525/)] [[Code](https://github.com/simran-khanuja/Multilingual-Fig-QA)]
 - Chinese Morpheme-informed Evaluation of Large Language Models, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.281/)] [[Code](https://github.com/COOLPKU/MorphEval)]
 - In What Languages are Generative Language Models the Most Formal? Analyzing Formality Distribution across Languages, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.175/)] [[Code](https://github.com/asimokby/formality-bias-analysis)]
 
-#### Linguistic Varieties
+##### Linguistic Varieties
 - AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2409.11404)]
 - DIALECTBENCH: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.11009)] [[Code](https://github.com/ffaisal93/DialectBench)]
 - GuyLingo: The Republic of Guyana Creole Corpora, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-short.70/)]
@@ -303,7 +303,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China, <ins>ACL, 2024</ins> [[Paper](https://aclanthology.org/2024.acl-long.479/)] [[Code](https://github.com/luciusssss/mc2_corpus)]
 - WYWEB: A NLP Evaluation Benchmark For Classical Chinese, <ins>ACL Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-acl.204/)] [[Code](https://github.com/baudzhou/WYWEB)]
 
-#### Literary Forms
+##### Literary Forms
 - GOLEM: GOld Standard for Learning and Evaluation of Motifs, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.689/)] [[Code](https://dataverse.fiu.edu/dataset.xhtml?persistentId=doi:10.34703/gzx1-9v95/FYOWLQ)]
 - FairyLandAI: Personalized Fairy Tales utilizing ChatGPT and DALLE-3, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2407.09467)] [[Code](https://fairylandai.com/)]
 - Are Fairy Tales Fair? Analyzing Gender Bias in Temporal Narrative Event Chains of Children’s Fairy Tales, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.359/)] [[Code](https://github.com/neu-hai/fair-fairytale)]
@@ -315,7 +315,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Chumor 1.0: A Truly Funny and Challenging Chinese Humor Understanding Dataset from Ruo Zhi Ba, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.12754)] [[Code](https://github.com/Leymore/ruozhiba)]
 - Cards Against AI: Predicting Humor in a Fill-in-the-blank Party Game, <ins>EMNLP Findings, 2022</ins> [[Paper](https://aclanthology.org/2022.findings-emnlp.394/)] [[Code](https://github.com/ddofer/CAH)]
 
-#### Culturally-Adapted Translation
+##### Culturally-Adapted Translation
 - Benchmarking LLMs for Translating Classical Chinese Poetry:Evaluating Adequacy, Fluency, and Elegance, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2408.09945)]
 - (Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.11804)]
 - Exploring Document-Level Literary Machine Translation with Parallel Paragraphs from World Literature, <ins>EMNLP, 2022</ins> [[Paper](https://aclanthology.org/2022.emnlp-main.672/)] [[Code](https://github.com/katherinethai/par3/)]
@@ -327,7 +327,7 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 - Translate the Beauty in Songs: Jointly Learning to Align Melody and Translate Lyrics, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.3/)] [[Code](https://ltag2023.github.io/)]
 
 
-#### Culturally-Adapted Dialogue Systems
+##### Culturally-Adapted Dialogue Systems
 - "Vorbeşti Româneşte?" A Recipe to Train Powerful Romanian LLMs with English Instructions, <ins>EMNLP Findings, 2024</ins> [[Paper](https://arxiv.org/abs/2406.18266)]
 - Cross-Lingual Dialogue Dataset Creation via Outline-Based Generation, <ins>TACL, 2023</ins> [[Paper](https://aclanthology.org/2023.tacl-1.9/)] [[Code](https://github.com/cambridgeltl/COD)]
 - Multi 3 WOZ: A Multilingual, Multi-Domain, Multi-Parallel Dataset for Training and Evaluating Culturally Adapted Task-Oriented Dialog Systems, <ins>TACL, 2023</ins> [[Paper](https://aclanthology.org/2023.tacl-1.79/)] [[Code](https://github.com/cambridgeltl/multi3woz)]
@@ -335,22 +335,22 @@ Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.008
 
 
 
-# 🖼️ Vision Models and Culture
-## Language Output Tasks
+## 🖼️ Vision Models and Culture
+### Language Output Tasks
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
-## Image Output Tasks
+### Image Output Tasks
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
-## Art Forms Related Tasks
+### Art Forms Related Tasks
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
-## Miscellaneous Tasks
+### Miscellaneous Tasks
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
-# 🎞️ Other Modalities and Culture
-## Audio and Speech
+## 🎞️ Other Modalities and Culture
+### Audio and Speech
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
-## Video
+### Video
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
