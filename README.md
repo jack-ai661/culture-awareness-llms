@@ -1,17 +1,44 @@
 # Survey of Cultural Awareness in Language Models: Text and Beyond
 ## (Being Updated)
 
-> **[Survey of Cultural Awareness in Language Models: Text and Beyond](https://openreview.net/forum?id=3gg6GHhuvi)**[ [Link]](https://openreview.net/forum?id=3gg6GHhuvi)
+> **[Survey of Cultural Awareness in Language Models: Text and Beyond](https://arxiv.org/abs/2411.00860)**
 
 > *Siddhesh Pawar<sup>2*</sup>, Junyeong Park<sup>1*</sup>, Jiho Jin<sup>1</sup>, Arnav Arora<sup>2</sup>, Junho Myung<sup>1</sup>, Srishti Yadav<sup>2</sup>, Faiz Ghifari Haznitrama<sup>1</sup>, Inhwa Song<sup>1</sup>, Alice Oh<sup>1</sup>, Isabelle Augenstein<sup>2</sup>*
 
-> *<sup>1</sup>KAIST, <sup>2</sup>University of Copenhagen*
+> *KAIST<sup>1</sup>, University of Copenhagen<sup>2</sup>*
 
 
 # 📁 Table of Content
-- [Language Models and Culture](#language-models-and-culture)
-- [Vision Models and Culture](#vision-models-and-culture)
-- [Other Modalities and Culture](#other-modalities-and-culture)
+- [Survey of Cultural Awareness in Language Models: Text and Beyond](#survey-of-cultural-awareness-in-language-models-text-and-beyond)
+  - [(Being Updated)](#being-updated)
+- [📁 Table of Content](#-table-of-content)
+- [💬 Language Models and Culture](#-language-models-and-culture)
+  - [Cultural Alignment: Methodologies and Goals](#cultural-alignment-methodologies-and-goals)
+    - [Training-Based Methods](#training-based-methods)
+      - [Pre-training](#pre-training)
+      - [Fine-tuning](#fine-tuning)
+      - [Others](#others)
+    - [Training-Free Methods](#training-free-methods)
+    - [Goal-Specific Alignment Strategies](#goal-specific-alignment-strategies)
+  - [Benchmarks and Evaluation](#benchmarks-and-evaluation)
+    - [Academic Knowledge](#academic-knowledge)
+    - [Commonsense Knowledge](#commonsense-knowledge)
+      - [Culture-Specific](#culture-specific)
+      - [Multiculture Monolingual](#multiculture-monolingual)
+      - [Multiculture Multilingual](#multiculture-multilingual)
+    - [Social Values](#social-values)
+    - [Social Norms and Morals](#social-norms-and-morals)
+    - [Social Bias and Stereotype](#social-bias-and-stereotype)
+    - [Toxicity and Safety](#toxicity-and-safety)
+    - [Emotional and Subjective Topics](#emotional-and-subjective-topics)
+    - [Linguistics](#linguistics)
+      - [Language Properties](#language-properties)
+      - [Linguistic Varieties](#linguistic-varieties)
+      - [Literary Forms](#literary-forms)
+      - [Culturally-Adapted Translation](#culturally-adapted-translation)
+      - [Culturally-Adapted Dialogue Systems](#culturally-adapted-dialogue-systems)
+- [🖼️ Vision Models and Culture](#️-vision-models-and-culture)
+- [🎞️ Other Modalities and Culture](#️-other-modalities-and-culture)
 
 
 # 💬 Language Models and Culture
