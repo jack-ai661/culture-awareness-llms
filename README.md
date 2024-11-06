@@ -7,10 +7,23 @@
 
 > *KAIST<sup>1</sup>, University of Copenhagen<sup>2</sup>*
 
+# Citation
+```
+@misc{pawar2024surveyculturalawarenesslanguage,
+      title={Survey of Cultural Awareness in Language Models: Text and Beyond}, 
+      author={Siddhesh Pawar and Junyeong Park and Jiho Jin and Arnav Arora and Junho Myung and Srishti Yadav and Faiz Ghifari Haznitrama and Inhwa Song and Alice Oh and Isabelle Augenstein},
+      year={2024},
+      eprint={2411.00860},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.00860}, 
+}
+```
 
 # 📁 Table of Content
 - [Survey of Cultural Awareness in Language Models: Text and Beyond](#survey-of-cultural-awareness-in-language-models-text-and-beyond)
   - [(Being Updated)](#being-updated)
+- [Citation](#citation)
 - [📁 Table of Content](#-table-of-content)
 - [💬 Language Models and Culture](#-language-models-and-culture)
   - [Cultural Alignment: Methodologies and Goals](#cultural-alignment-methodologies-and-goals)
