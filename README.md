@@ -19,9 +19,28 @@
 }
 ```
 
+# About
+Large-scale deployment of large language models (LLMs) in various applications, such as chatbots and virtual assistants, requires LLMs to be culturally sensitive to the user to ensure inclusivity. Culture has been widely studied in psychology and anthropology, and there has been a recent surge in research on making LLMs more culturally inclusive in LLMs that goes beyond multilinguality and builds on findings from psychology and anthropology.  In this paper, we survey efforts towards incorporating cultural awareness into text-based and multimodal LLMs. We start by defining cultural awareness in LLMs, taking the definitions of culture from anthropology and psychology as a point of departure. We then examine methodologies adopted for creating cross-cultural datasets, strategies for cultural inclusion in downstream tasks, and methodologies that have been used for benchmarking cultural awareness in LLMs. Further, we discuss the ethical implications of cultural alignment, the role of Human-Computer Interaction in driving cultural inclusion in LLMs, and the role of cultural alignment in driving social science research. We finally provide pointers to future research based on our findings about gaps in the literature.
+
+
+# 🌎 Language and Region Coverage
+![Figure 1](./img/culture_map.pdf)
+![Figure 2](./img/lang_dist.pdf)
+
+Figure 1 presents the frequency distribution of languages used in the evaluations, showing only languages with a frequency of two or more. The colors indicate the language resource classes, with darker colors (with higher numbers) representing higher-resource languages. Most studies collect data in English and research in Korean, Indonesian, Bengali, and Swahili has been relatively active compared to other languages of their resource levels.
+Notably, for most languages classified as level 2 or below, there are at most seven studies, with the only exception of Swahili, underscoring the gap in research.
+
+Figure 2 visualize the region distribution at the country level, including only countries explicitly mentioned by the authors in their manuscripts. Most of the studies focus on WEIRD (Western, Educated, Industrialized, Rich,
+and Democratic) countries, along with regions such as East Asia, Indonesia, and India. In contrast, countries in Africa, Central and South America, Eastern Europe, and Central Asia are significantly underrepresented.
+
+Please check out the details in the paper.[Link](https://arxiv.org/abs/2411.00860)
+
+
 # 📁 Table of Content
 - [Survey of Cultural Awareness in Language Models: Text and Beyond](#survey-of-cultural-awareness-in-language-models-text-and-beyond)
   - [(Being Updated)](#being-updated)
+- [About](#about)
+- [🌎 Language and Region Coverage](#-language-and-region-coverage)
 - [📁 Table of Content](#-table-of-content)
 - [💬 Language Models and Culture](#-language-models-and-culture)
   - [Cultural Alignment: Methodologies and Goals](#cultural-alignment-methodologies-and-goals)
