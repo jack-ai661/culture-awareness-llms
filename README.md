@@ -7,7 +7,6 @@
 
 > *KAIST<sup>1</sup>, University of Copenhagen<sup>2</sup>*
 
-# Citation
 ```
 @misc{pawar2024surveyculturalawarenesslanguage,
       title={Survey of Cultural Awareness in Language Models: Text and Beyond}, 
@@ -23,7 +22,6 @@
 # 📁 Table of Content
 - [Survey of Cultural Awareness in Language Models: Text and Beyond](#survey-of-cultural-awareness-in-language-models-text-and-beyond)
   - [(Being Updated)](#being-updated)
-- [Citation](#citation)
 - [📁 Table of Content](#-table-of-content)
 - [💬 Language Models and Culture](#-language-models-and-culture)
   - [Cultural Alignment: Methodologies and Goals](#cultural-alignment-methodologies-and-goals)
@@ -51,7 +49,13 @@
       - [Culturally-Adapted Translation](#culturally-adapted-translation)
       - [Culturally-Adapted Dialogue Systems](#culturally-adapted-dialogue-systems)
 - [🖼️ Vision Models and Culture](#️-vision-models-and-culture)
+  - [Language Output Tasks](#language-output-tasks)
+  - [Image Output Tasks](#image-output-tasks)
+  - [Art Forms Related Tasks](#art-forms-related-tasks)
+  - [Miscellaneous Tasks](#miscellaneous-tasks)
 - [🎞️ Other Modalities and Culture](#️-other-modalities-and-culture)
+  - [Audio and Speech](#audio-and-speech)
+  - [Video](#video)
 
 
 # 💬 Language Models and Culture
@@ -314,8 +318,21 @@
 
 
 # 🖼️ Vision Models and Culture
+## Language Output Tasks
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
+## Image Output Tasks
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+
+## Art Forms Related Tasks
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+
+## Miscellaneous Tasks
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
 # 🎞️ Other Modalities and Culture
+## Audio and Speech
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+
+## Video
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
