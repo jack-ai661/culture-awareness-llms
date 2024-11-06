@@ -24,8 +24,10 @@ Large-scale deployment of large language models (LLMs) in various applications, 
 
 
 ## 🌎 Language and Region Coverage
-![image](./img/lang_dist.png){: width="70%"}
-![image](./img/culture_map.png){: width="70%"}
+![image](./img/lang_dist.png)
+![image](./img/culture_map.png)
+
+We manually annotated the languages and regions covered by benchmarks and evaluations across modalities.
 
 Fig 1 presents the frequency distribution of languages used in the evaluations, showing only languages with a frequency of two or more. The colors indicate the language resource classes, with darker colors (with higher numbers) representing higher-resource languages. most studies collect data in English. Chinese, Spanish, and German are other high-resource languages observed frequently in cultural studies. Notably, for most languages classified as level 2 or below, there are at most seven studies, with the only exception of Swahili, underscoring the gap in research.
 
