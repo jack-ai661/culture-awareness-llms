@@ -36,7 +36,7 @@
 #### Fine-tuning
 - Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.06138)] [[Code](https://huggingface.co/indonlp/cendol)]
 - COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.18058)] [[Code](https://huggingface.co/datasets/m-a-p/COIG-CQIA)]
-- CRAFT: Extracting and Tuning Cultural Instructions from the Wild, <ins>ACL C3NLP Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2405.03138)] [[Code](https://github.com/SeaEval/CRAFT)]
+- CRAFT: Extracting and Tuning Cultural Instructions from the Wild, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2405.03138)] [[Code](https://github.com/SeaEval/CRAFT)]
 - CulturePark: Boosting Cross-cultural Understanding in Large Language Models, <ins>NeurIPS, 2024</ins> [[Paper](https://arxiv.org/abs/2405.15145)] [[Code](https://github.com/Scarelette/CulturePark)]
 - CultureLLM: Incorporating Cultural Differences into Large Language Models, <ins>NeurIPS, 2024</ins> [[Paper](https://arxiv.org/abs/2402.10946)] [[Code](https://github.com/Scarelette/CultureLLM)]
 - CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies, <ins>arXiv, 2024</ins> [[Paper](paper_link)] [[Code](https://huggingface.co/datasets/SALT-NLP/CultureBank)]
@@ -52,7 +52,7 @@
 #### Others
 - Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration, <ins>EMNLP, 2024</ins> [[Paper](https://arxiv.org/abs/2406.15951)] [[Code](https://github.com/BunsenFeng/modular_pluralism/tree/main)]
 - An Unsupervised Framework for Adaptive Context-aware Simplified-Traditional Chinese Character Conversion, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.118/)] [[Code](https://github.com/NLPInBLCU/STCC)]
-- Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?, <ins>ACL C3NLP Workshop, 2024</ins> [[Paper](https://aclanthology.org/2024.c3nlp-1.5/)]
+- Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://aclanthology.org/2024.c3nlp-1.5/)]
 
 
 ### Training-Free Methods
@@ -143,10 +143,10 @@
 ### Social Values
 - Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Value, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.486/)]
 - The Ghost in the Machine has an American accent: value conflict in GPT-3, <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2203.07785)]
-- CDEval: A Benchmark for Measuring the Cultural Dimensions of Large Language Models, <ins>ACL C3NLP Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2311.16421)] [[Code](https://huggingface.co/datasets/Rykeryuhang/CDEval)]
+- CDEval: A Benchmark for Measuring the Cultural Dimensions of Large Language Models, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2311.16421)] [[Code](https://huggingface.co/datasets/Rykeryuhang/CDEval)]
 - High-Dimension Human Value Representation in Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.07900)] [[Code](https://github.com/HLTCHKUST/UniVaR)]
-- Probing Pre-Trained Language Models for Cross-Cultural Differences in Values, <ins>ACL C3NLP Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.c3nlp-1.12/)] [[Code](https://github.com/copenlu/value-probing)]
-- Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study, <ins>ACL C3NLP Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.c3nlp-1.7/?trk=public_post_comment-text)] [[Code](https://github.com/yongcaoplus/ProbingChatGPT)]
+- Probing Pre-Trained Language Models for Cross-Cultural Differences in Values, <ins>C3NLP Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.c3nlp-1.12/)] [[Code](https://github.com/copenlu/value-probing)]
+- Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study, <ins>C3NLP Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.c3nlp-1.7/?trk=public_post_comment-text)] [[Code](https://github.com/yongcaoplus/ProbingChatGPT)]
 - WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1539/)] [[Code](https://github.com/Demon702/WorldValuesBench)]
 - Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models, <ins>CoRR, 2023</ins> [[Paper](https://arxiv.org/abs/2310.12481)]
 - Cultural Value Resonance in Folktales: A Transformer-Based Analysis with the World Value Corpus, <ins>SBP-BRiMS, 2022</ins> [[Paper](https://dl.acm.org/doi/abs/10.1007/978-3-031-17114-7_20)] [[Code](https://osf.io/wpu8r)]
@@ -175,10 +175,40 @@
 - CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.703/)] [[Code](https://github.com/tjunlp-lab/CMoralEval)]
 
 ### Social Bias and Stereotype
-- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+- The (Undesired) Attenuation of Human Biases by Multilinguality, <ins>EMNLP, 2022</ins> [[Paper](https://aclanthology.org/2022.emnlp-main.133/)] [[Code](https://github.com/cristinae/CA-WEAT)]
+- Global Voices, Local Biases: Socio-Cultural Prejudices across Languages, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.981/)] [[Code](https://github.com/iamshnoo/weathub)]
+- Towards Region-aware Bias Evaluation Metrics, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.16152)]
+- French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English, <ins>ACL, 2022</ins> [[Paper](https://aclanthology.org/2022.acl-long.583/)]
+- Your Stereotypical Mileage May Vary: Practical Challenges of Evaluating Biases in Multiple Languages and Cultural Contexts, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1545/)] [[Code](https://gitlab.inria.fr/corpus4ethics/multilingualcrowspairs)]
+- IndiBias: A Benchmark Dataset to Measure Social Biases in Language Models for Indian Context, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.487/)] [[Code](https://github.com/sahoonihar/IndiBias)]
+- Indian-BhED: A Dataset for Measuring India-Centric Biases in Large Language Models, <ins>GoodIT, 2024</ins> [[Paper](https://dl.acm.org/doi/abs/10.1145/3677525.3678666)] [[Code](https://github.com/khyatikhandelwal/Indian-LLMs-Bias)]
+- CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.757/)] [[Code](https://github.com/hyintell/CHBias)]
+- Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity, <ins>C3NLP Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.c3nlp-1.8/)]
+- RuBia: A Russian Language Bias Detection Dataset, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1240/)] [[Code](https://github.com/vergrig/RuBia-Dataset)]
+- Building Socio-culturally Inclusive Stereotype Resources with Community Engagement, <ins>NeurIPS, 2023</ins> [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0dc91de822b71c66a7f54fa121d8cbb9-Abstract-Datasets_and_Benchmarks.html)] [[Code](https://github.com/google-research-datasets/SPICE)]
+- SeeGULL: A Stereotype Benchmark with Broad Geo-Cultural Coverage Leveraging Generative Models, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.548/)] [[Code](https://github.com/google-research-datasets/seegull)]
+- SeeGULL Multilingual: a Dataset of Geo-Culturally Situated Stereotypes, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.05696)] [[Code](https://github.com/google-research-datasets/SeeGULL-Multilingual)]
+- CBBQ: A Chinese Bias Benchmark Dataset Curated with Human-AI Collaboration for Large Language Models, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.260/)] [[Code](https://github.com/YFHuangxxxx/CBBQ/)]
+- KoBBQ: Korean Bias Benchmark for Question Answering, <ins>TACL, 2024</ins> [[Paper](https://arxiv.org/abs/2307.16778)] [[Code](https://jinjh0123.github.io/KoBBQ/)]
+- Analyzing Social Biases in Japanese Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.02050)] [[Code](https://github.com/ynklab/JBBQ_data)]
+- MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs, <ins>COLM, 2024</ins> [[Paper](https://arxiv.org/abs/2406.07243)] [[Code](https://github.com/Veranep/MBBQ)]
+- Quite Good, but Not Enough: Nationality Bias in Large Language Models - a Case Study of ChatGPT, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1180/)] [[Code](https://github.com/weikang-wang/NationalityBiasOfChatGPT)]
+- "They are uncultured": Unveiling Covert Harms and Social Threats in LLM Generated Conversations, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05378)] [[Code](https://huggingface.co/SocialCompUW/CHAST)]
 
 ### Toxicity and Safety
-- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+- Resources for Multilingual Hate Speech Detection, <ins>WOAH Workshop, 2024</ins> [[Paper](https://aclanthology.org/2022.woah-1.12/)]
+- AraTrust: An Evaluation of Trustworthiness for LLMs in Arabic, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.09017)]
+- KOLD: Korean Offensive Language Dataset, <ins>EMNLP, 2022</ins> [[Paper](https://aclanthology.org/2022.emnlp-main.744/)] [[Code](https://github.com/boychaboy/KOLD)]
+- KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-industry.21/)] [[Code](https://github.com/naver-ai/korean-safety-benchmarks)]
+- Detecting Cybercrimes in Accordance with Pakistani Law: Dataset and Evaluation Using PLMs, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.422/)] [[Code](https://github.com/Faizad/CRU-LREC-COLING-2024)]
+- Listening to Affected Communities to Define Extreme Speech: Dataset and Experiments, <ins>ACL Findings, 2022</ins> [[Paper](https://aclanthology.org/2022.findings-acl.87/)] [[Code](https://github.com/antmarakis/xtremespeech)]
+- The Challenges of Creating a Parallel Multilingual Hate Speech Corpus: An Exploration, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1376/)] [[Code](https://github.com/katkorre/Parallel-Multilingual-Hate-Speech-Corpus)]
+- RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.14397)] [[Code](https://github.com/microsoft/RTP-LX)]
+- From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets, <ins>WOAH Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2404.17874)] [[Code](https://github.com/manueltonneau/hs-survey-cultural-bias)]
+- Hate Speech Classifiers are Culturally Insensitive, <ins>C3NLP Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.c3nlp-1.5/)]
+- Exploring Cross-Cultural Differences in English Hate Speech Annotations: From Dataset Construction to Analysis, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.236/)] [[Code](https://github.com/nlee0212/CREHate)]
+- WalledEval: A Comprehensive Safety Evaluation Toolkit for Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2408.03837)] [[Code](https://github.com/walledai/walledeval)]
+- AART: AI-Assisted Red-Teaming with Diverse Data Generation for New LLM-powered Applications, <ins>EMNLP (Industry), 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-industry.37/)] [[Code](https://github.com/google-research-datasets/aart-ai-safety-dataset)]
 
 ### Emotional and Subjective Topics
 - paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
