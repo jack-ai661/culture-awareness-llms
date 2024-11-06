@@ -17,8 +17,65 @@
 # 💬 Language Models and Culture
 ## Cultural Alignment: Methodologies and Goals
 ### Training-Based Methods
+#### Pre-training
+- HyperCLOVA X Technical Report, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.01954)] [[Code](https://www.ncloud.com/product/aiService/clovaStudio)]
+- PersianLLaMA: Towards Building First Persian Large Language Model, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.15713)] [[Code](https://huggingface.co/ViraIntelligentDataMining/PersianLLaMA-13B)]
+- JASMINE: Arabic GPT Models for Few-Shot Learning, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.1040/)] [[Code](https://huggingface.co/UBC-NLP/Jasmine-350M)]
+- UCCIX: Irish-eXcellence Large Language Model, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.13010)] [[Code](https://huggingface.co/ReliableAI/UCCIX-Llama2-13B)]
+- SeaLLMs -- Large Language Models for Southeast Asia, <ins>ACL DEMO, 2024</ins> [[Paper](https://arxiv.org/abs/2312.00738)] [[Code](https://damo-nlp-sg.github.io/SeaLLMs/)]
+- Taiwan LLM: Bridging the Linguistic Divide with a Culturally Aligned Language Model, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2311.17487)] [[Code](https://github.com/MiuLab/Taiwan-LLM)]
+- Komodo: A Linguistic Expedition into Indonesia's Regional Languages, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.09362)] [[Code](https://huggingface.co/Yellow-AI-NLP/komodo-7b-base)]
+- Typhoon: Thai Large Language Models, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.13951)] [[Code](https://huggingface.co/scb10x/typhoon-7b)]
+- Sabiá: Portuguese Large Language Models, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2304.07880)] [[Code](https://huggingface.co/maritaca-ai/sabia-7b)]
+- AceGPT, Localizing Large Language Models in Arabic, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.450/)] [[Code](https://github.com/FreedomIntelligence/AceGPT)]
+- Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2308.16149)] [[Code](https://huggingface.co/inceptionai/jais-13b-chat)]
+- EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.561/)] [[Code](https://huggingface.co/EthioNLP)]
+- "Vorbeşti Româneşte?" A Recipe to Train Powerful Romanian LLMs with English Instructions, <ins>EMNLP Findings, 2024</ins> [[Paper](https://arxiv.org/abs/2406.18266)] [[Code](https://huggingface.co/OpenLLM-Ro)]
+- BertaQA: How Much Do Language Models Know About Local Culture?, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.07302)] [[Code](https://github.com/juletx/BertaQA)]
+
+#### Fine-tuning
+- Cendol: Open Instruction-tuned Generative Large Language Models for Indonesian Languages, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.06138)] [[Code](https://huggingface.co/indonlp/cendol)]
+- COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.18058)] [[Code](https://huggingface.co/datasets/m-a-p/COIG-CQIA)]
+- CRAFT: Extracting and Tuning Cultural Instructions from the Wild, <ins>ACL C3NLP Workshop, 2024</ins> [[Paper](https://arxiv.org/abs/2405.03138)] [[Code](https://github.com/SeaEval/CRAFT)]
+- CulturePark: Boosting Cross-cultural Understanding in Large Language Models, <ins>NeurIPS, 2024</ins> [[Paper](https://arxiv.org/abs/2405.15145)] [[Code](https://github.com/Scarelette/CulturePark)]
+- CultureLLM: Incorporating Cultural Differences into Large Language Models, <ins>NeurIPS, 2024</ins> [[Paper](https://arxiv.org/abs/2402.10946)] [[Code](https://github.com/Scarelette/CultureLLM)]
+- CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies, <ins>arXiv, 2024</ins> [[Paper](paper_link)] [[Code](https://huggingface.co/datasets/SALT-NLP/CultureBank)]
+- Methodology of Adapting Large English Language Models for Specific Cultural Contexts, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.18192)]
+- GD-COMET: A Geo-Diverse Commonsense Inference Model, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.496/)] [[Code](https://github.com/meharbhatia/GD-COMET)]
+- Cultural Compass: Predicting Transfer Learning Success in Offensive Language Detection with Cultural Features, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.845/)] [[Code](https://github.com/lizhou21/cultural-compass)]
+- How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.963/)] [[Code](https://github.com/Paul-scpark/Moral-Emotion)]
+- Social Norms-Grounded Machine Ethics in Complex Narrative Situation, <ins>COLING, 2022</ins> [[Paper](https://aclanthology.org/2022.coling-1.114/)]
+- Multi-domain Hate Speech Detection Using Dual Contrastive Learning and Paralinguistic Features, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1025/)]
+- Generalizable Multilingual Hate Speech Detection on Low Resource Indian Languages using Fair Selection in Federated Learning, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.400/)]
+
+
+#### Others
+- Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration, <ins>EMNLP, 2024</ins> [[Paper](https://arxiv.org/abs/2406.15951)] [[Code](https://github.com/BunsenFeng/modular_pluralism/tree/main)]
+- An Unsupervised Framework for Adaptive Context-aware Simplified-Traditional Chinese Character Conversion, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.118/)] [[Code](https://github.com/NLPInBLCU/STCC)]
+- Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?, <ins>ACL C3NLP Workshop, 2024</ins> [[Paper](https://aclanthology.org/2024.c3nlp-1.5/)]
+
+
 ### Training-Free Methods
+- Investigating Cultural Alignment of Large Language Models, <ins>ACL, 2024</ins> [[Paper](https://arxiv.org/abs/2402.13231)] [[Code](https://github.com/bkhmsi/cultural-trends)]
+- Cultural bias and cultural alignment of large language models, <ins>PNAS Nexus, 2024</ins> [[Paper](https://academic.oup.com/pnasnexus/article/3/9/pgae346/7756548)]
+- CULTURE-GEN: Revealing Global Cultural Perception in Language Models through Natural Language Prompting, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.10199)] [[Code](https://github.com/huihanlhh/Culture-Gen/)]
+- Toxicity in chatgpt: Analyzing persona-assigned language models, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.88/)]
+- Whose Opinions Do Language Models Reflect?, <ins>ICML, 2023</ins> [[Paper](https://arxiv.org/abs/2303.17548)] [[Code](https://github.com/tatsu-lab/opinions_qa)]
+- Aligning Language Models to User Opinions, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.393/)] [[Code](https://github.com/eujhwang/personalized-llms)]
+- Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.84/)] [[Code](https://github.com/myracheng/markedpersonas)]
+- Does Mapo Tofu Contain Coffee? Probing LLMs for Food-related Cultural Knowledge, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.06833)] [[Code](https://github.com/lizhou21/FmLAMA-master)]
+- Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.316/)]
+
 ### Goal-Specific Alignment Strategies
+- Harmonizing Global Voices: Culturally-Aware Models for Enhanced Content Moderation, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.02401)]
+- NativQA: Multilingual Culturally-Aligned Natural Query for LLMs, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2407.09823)] [[Code](https://nativqa.gitlab.io/)]
+- Improving Diversity of Demographic Representation in Large Language Models via Collective-Critiques and Self-Voting, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.643/)]
+- How Far Can We Extract Diverse Perspectives from Large Language Models?, <ins>EMNLP, 2024</ins> [[Paper](https://arxiv.org/abs/2311.09799)] [[Code](https://github.com/minnesotanlp/diversity-extraction-from-llms)]
+- KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-industry.21/)] [[Code](https://github.com/naver-ai/korean-safety-benchmarks)]
+- CHBias: Bias Evaluation and Mitigation of Chinese Conversational Language Models, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.757/)] [[Code](https://github.com/hyintell/CHBias)]
+- Bias Neutralization Framework: Measuring Fairness in Large Language Models with Bias Intelligence Quotient (BiQ), <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.18276)]
+- Indian-BhED: A Dataset for Measuring India-Centric Biases in Large Language Models, <ins>GoodIT, 2024</ins> [[Paper](https://dl.acm.org/doi/abs/10.1145/3677525.3678666)] [[Code](https://github.com/khyatikhandelwal/Indian-LLMs-Bias)]
+
 
 ## Benchmarks and Evaluation
 ### Academic Knowledge
@@ -118,12 +175,21 @@
 - CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.703/)] [[Code](https://github.com/tjunlp-lab/CMoralEval)]
 
 ### Social Bias and Stereotype
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+
 ### Toxicity and Safety
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+
 ### Emotional and Subjective Topics
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+
 ### Linguistics
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
 
 # 🖼️ Vision Models and Culture
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
 
 
 # 🎞️ Other Modalities and Culture
+- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
