@@ -1,5 +1,6 @@
 # Survey of Cultural Awareness in Language Models: Text and Beyond
-## (Being Updated)
+
+(Being Updated..)
 
 > **[Survey of Cultural Awareness in Language Models: Text and Beyond](https://arxiv.org/abs/2411.00860)**
 
@@ -31,17 +32,15 @@ Large-scale deployment of large language models (LLMs) in various applications, 
 
 We manually annotated the languages and regions covered by benchmarks and evaluations across modalities.
 
-Fig 1 presents the frequency distribution of languages used in the evaluations, showing only languages with a frequency of two or more. The colors indicate the language resource classes, with darker colors (with higher numbers) representing higher-resource languages. most studies collect data in English. Chinese, Spanish, and German are other high-resource languages observed frequently in cultural studies. Notably, for most languages classified as level 2 or below, there are at most seven studies, with the only exception of Swahili, underscoring the gap in research.
+Left figure presents the frequency distribution of languages used in the evaluations, showing only languages with a frequency of two or more. The colors indicate the language resource classes, with darker colors (with higher numbers) representing higher-resource languages. Most studies collect data in English, while Chinese, Spanish, and German are other high-resource languages observed frequently in cultural studies. Notably, for most languages classified as level 2 or below, there are at most seven studies, with the only exception of Swahili, underscoring the gap in research.
 
-Fig 2 visualize the region distribution at the country level, including only countries explicitly mentioned by the authors in their manuscripts. Most of the studies focus on WEIRD (Western, Educated, Industrialized, Rich,
-and Democratic) countries, along with regions such as East Asia, Indonesia, and India. In contrast, countries in Africa, Central and South America, Eastern Europe, and Central Asia are significantly underrepresented.
+Right figure visualize the region distribution at the country level, including only countries explicitly mentioned by the authors in their manuscripts. Most of the studies focus on WEIRD (Western, Educated, Industrialized, Rich, and Democratic) countries, along with regions such as East Asia, Indonesia, and India. In contrast, countries in Africa, Central and South America, Eastern Europe, and Central Asia are significantly underrepresented.
 
-Please check out the details in the paper[[Link]](https://arxiv.org/abs/2411.00860).
+Please check out the details in the paper [(Link)](https://arxiv.org/abs/2411.00860).
 
 
 ## 📁 Table of Content
 - [Survey of Cultural Awareness in Language Models: Text and Beyond](#survey-of-cultural-awareness-in-language-models-text-and-beyond)
-  - [(Being Updated)](#being-updated)
   - [About](#about)
   - [🌎 Language and Region Coverage](#-language-and-region-coverage)
   - [📁 Table of Content](#-table-of-content)
