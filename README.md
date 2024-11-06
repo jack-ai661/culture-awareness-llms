@@ -211,10 +211,66 @@
 - AART: AI-Assisted Red-Teaming with Diverse Data Generation for New LLM-powered Applications, <ins>EMNLP (Industry), 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-industry.37/)] [[Code](https://github.com/google-research-datasets/aart-ai-safety-dataset)]
 
 ### Emotional and Subjective Topics
-- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+- Multilingual Language Models are not Multicultural: A Case Study in Emotion, <ins>WASSA Workshop, 2023</ins> [[Paper](https://aclanthology.org/2023.wassa-1.19/)] [[Code](https://github.com/shreyahavaldar/Multicultural_Emotion/)]
+- Are Generative Language Models Multicultural? A Study on Hausa Culture and Emotions using ChatGPT, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://aclanthology.org/2024.c3nlp-1.8/)]
+- Beyond Metrics: Evaluating LLMs' Effectiveness in Culturally Nuanced, Low-Resource Real-World Scenarios, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.00343)]
+- MASIVE: Open-Ended Affective State Identification in English and Spanish, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2407.12196)]
+- Large Language Models are Geographically Biased, <ins>ICML, 2024</ins> [[Paper](https://arxiv.org/abs/2402.02680)] [[Code](https://rohinmanvi.github.io/GeoLLM/)]
+- ThatiAR: Subjectivity Detection in Arabic News Sentences, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.05559)] [[Code](code_link)]
+- Cross-cultural Inspiration Detection and Analysis in Real and LLM-generated Social Media Data, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.12933)] [[Code](https://github.com/MichiganNLP/cross_inspiration)]
 
 ### Linguistics
-- paper_title, <ins>venue, year</ins> [[Paper](paper_link)] [[Code](code_link)]
+#### Language Properties
+- Multi-lingual and Multi-cultural Figurative Language Understanding, <ins>ACL Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-acl.525/)] [[Code](https://github.com/simran-khanuja/Multilingual-Fig-QA)]
+- Chinese Morpheme-informed Evaluation of Large Language Models, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.281/)] [[Code](https://github.com/COOLPKU/MorphEval)]
+- In What Languages are Generative Language Models the Most Formal? Analyzing Formality Distribution across Languages, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.175/)] [[Code](https://github.com/asimokby/formality-bias-analysis)]
+
+#### Linguistic Varieties
+- AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2409.11404)]
+- DIALECTBENCH: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.11009)] [[Code](https://github.com/ffaisal93/DialectBench)]
+- GuyLingo: The Republic of Guyana Creole Corpora, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-short.70/)]
+- MultiPICo: Multilingual Perspectivist Irony Corpus, <ins>ACL, 2024</ins> [[Paper](https://aclanthology.org/2024.acl-long.849/)] [[Code](https://huggingface.co/datasets/Multilingual-Perspectivist-NLU/MultiPICo)]
+- TARJAMAT: Evaluation of Bard and ChatGPT on Machine Translation of Ten Arabic Varieties, <ins>ArabicNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.arabicnlp-1.6/)]
+- Quantifying the Dialect Gap and its Correlates Across Languages, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.481/)]
+- A Parallel Corpus for Vietnamese Central-Northern Dialect Text Transfer, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.925/)]
+- Language Varieties of Italy: Technology Challenges and Opportunities, <ins>TACL, 2024</ins> [[Paper](https://aclanthology.org/2024.tacl-1.2/)]
+- A Treebank of Asia Minor Greek, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.151/)] [[Code](https://github.com/iscl-lrl/amg-treebank)]
+- AC-EVAL: Evaluating Ancient Chinese Language Understanding in Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.06574)] [[Code](https://github.com/yuting-wei/AC-EVAL)]
+- C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.17732)] [[Code](https://github.com/SCUT-DLVCLab/C3bench)]
+- CHisIEC: An Information Extraction Corpus for Ancient Chinese History, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.283/)] [[Code](https://github.com/tangxuemei1995/CHisIEC)]
+- MC2: Towards Transparent and Culturally-Aware NLP for Minority Languages in China, <ins>ACL, 2024</ins> [[Paper](https://aclanthology.org/2024.acl-long.479/)] [[Code](https://github.com/luciusssss/mc2_corpus)]
+- WYWEB: A NLP Evaluation Benchmark For Classical Chinese, <ins>ACL Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-acl.204/)] [[Code](https://github.com/baudzhou/WYWEB)]
+
+#### Literary Forms
+- GOLEM: GOld Standard for Learning and Evaluation of Motifs, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.689/)] [[Code](https://dataverse.fiu.edu/dataset.xhtml?persistentId=doi:10.34703/gzx1-9v95/FYOWLQ)]
+- FairyLandAI: Personalized Fairy Tales utilizing ChatGPT and DALLE-3, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2407.09467)] [[Code](https://fairylandai.com/)]
+- Are Fairy Tales Fair? Analyzing Gender Bias in Temporal Narrative Event Chains of Children’s Fairy Tales, <ins>ACL, 2023</ins> [[Paper](https://aclanthology.org/2023.acl-long.359/)] [[Code](https://github.com/neu-hai/fair-fairytale)]
+- Interpreting Themes from Educational Stories, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.805/)] [[Code](https://github.com/RiTUAL-UH/EduStory)]
+- Deciphering Emotional Landscapes in the Iliad: A Novel French-Annotated Dataset for Emotion Recognition, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.399/)]
+- Revisiting the Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1228/)] [[Code](https://github.com/s-vigneshwaran/Revisiting-The-Classics)]
+- A Dataset for Metaphor Detection in Early Medieval Hebrew Poetry, <ins>EACL, 2024</ins> [[Paper](https://aclanthology.org/2024.eacl-short.39/)] [[Code](https://tokeron.github.io/metaphor/)]
+- Sonnet or Not, Bot? Poetry Evaluation for Large Models and Datasets, <ins>EMNLP Findings, 2024</ins> [[Paper](https://arxiv.org/abs/2406.18906)] [[Code](https://github.com/maria-antoniak/poetry-eval)]
+- Chumor 1.0: A Truly Funny and Challenging Chinese Humor Understanding Dataset from Ruo Zhi Ba, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2406.12754)] [[Code](https://github.com/Leymore/ruozhiba)]
+- Cards Against AI: Predicting Humor in a Fill-in-the-blank Party Game, <ins>EMNLP Findings, 2022</ins> [[Paper](https://aclanthology.org/2022.findings-emnlp.394/)] [[Code](https://github.com/ddofer/CAH)]
+
+#### Culturally-Adapted Translation
+- Benchmarking LLMs for Translating Classical Chinese Poetry:Evaluating Adequacy, Fluency, and Elegance, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2408.09945)]
+- (Perhaps) Beyond Human Translation: Harnessing Multi-Agent Collaboration for Translating Ultra-Long Literary Texts, <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.11804)]
+- Exploring Document-Level Literary Machine Translation with Parallel Paragraphs from World Literature, <ins>EMNLP, 2022</ins> [[Paper](https://aclanthology.org/2022.emnlp-main.672/)] [[Code](https://github.com/katherinethai/par3/)]
+- EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.561/)] [[Code](https://huggingface.co/EthioNLP)]
+- Benchmarking Machine Translation with Cultural Awareness, <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2305.14328)] [[Code](https://github.com/BigBinnie/Benchmarking-LLM-based-Machine-Translation-on-Cultural-Awareness)]
+- Toucan: Many-to-Many Translation for 150 African Language Pairs, <ins>ACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-acl.781/)] [[Code](https://github.com/UBC-NLP/Toucan)]
+- CoCoA-MT: A Dataset and Benchmark for Contrastive Controlled MT with Application to Formality, <ins>NAACL Findings, 2022</ins> [[Paper](https://aclanthology.org/2022.findings-naacl.47/)] [[Code](https://github.com/amazon-science/contrastive-controlled-mt)]
+- A Rose by Any Other Name would not Smell as Sweet: Social Bias in Names Mistranslation, <ins>EMNLP, 2023</ins> [[Paper](https://aclanthology.org/2023.emnlp-main.239/)]
+- Translate the Beauty in Songs: Jointly Learning to Align Melody and Translate Lyrics, <ins>EMNLP Findings, 2023</ins> [[Paper](https://aclanthology.org/2023.findings-emnlp.3/)] [[Code](https://ltag2023.github.io/)]
+
+
+#### Culturally-Adapted Dialogue Systems
+- "Vorbeşti Româneşte?" A Recipe to Train Powerful Romanian LLMs with English Instructions, <ins>EMNLP Findings, 2024</ins> [[Paper](https://arxiv.org/abs/2406.18266)]
+- Cross-Lingual Dialogue Dataset Creation via Outline-Based Generation, <ins>TACL, 2023</ins> [[Paper](https://aclanthology.org/2023.tacl-1.9/)] [[Code](https://github.com/cambridgeltl/COD)]
+- Multi 3 WOZ: A Multilingual, Multi-Domain, Multi-Parallel Dataset for Training and Evaluating Culturally Adapted Task-Oriented Dialog Systems, <ins>TACL, 2023</ins> [[Paper](https://aclanthology.org/2023.tacl-1.79/)] [[Code](https://github.com/cambridgeltl/multi3woz)]
+- Bridging Cultural Nuances in Dialogue Agents through Cultural Value Surveys, <ins>EACL Findings, 2024</ins> [[Paper](https://aclanthology.org/2024.findings-eacl.63/)] [[Code](https://github.com/yongcaoplus/cuDialog)]
+
 
 
 # 🖼️ Vision Models and Culture
