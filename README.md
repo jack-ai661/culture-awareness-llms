@@ -24,8 +24,10 @@ Large-scale deployment of large language models (LLMs) in various applications, 
 
 
 ## 🌎 Language and Region Coverage
-![image](./img/lang_dist.png)
-![image](./img/culture_map.png)
+<p float="center">
+  <img src="./img/lang_dist.png" width="54%" />
+  <img src="./img/culture_map.png" width="45%" /> 
+</p>
 
 We manually annotated the languages and regions covered by benchmarks and evaluations across modalities.
 
