@@ -1,12 +1,10 @@
 # Survey of Cultural Awareness in Language Models: Text and Beyond
 
-(Being Updated..)
+This is the official repository of **Survey of Cultural Awareness in Language Models: Text and Beyond [(Link)](https://arxiv.org/abs/2411.00860)** (Being Updated)
 
-> **[Survey of Cultural Awareness in Language Models: Text and Beyond](https://arxiv.org/abs/2411.00860)**
+> *Siddhesh Pawar<sup>1\*</sup>, Junyeong Park<sup>2\*</sup>, Jiho Jin<sup>2</sup>, Arnav Arora<sup>1</sup>, Junho Myung<sup>2</sup>, Srishti Yadav<sup>1</sup>, Faiz Ghifari Haznitrama<sup>2</sup>, Inhwa Song<sup>2</sup>, Alice Oh<sup>2</sup>, Isabelle Augenstein<sup>1</sup>*
 
-> *Siddhesh Pawar<sup>2*</sup>, Junyeong Park<sup>1*</sup>, Jiho Jin<sup>1</sup>, Arnav Arora<sup>2</sup>, Junho Myung<sup>1</sup>, Srishti Yadav<sup>2</sup>, Faiz Ghifari Haznitrama<sup>1</sup>, Inhwa Song<sup>1</sup>, Alice Oh<sup>1</sup>, Isabelle Augenstein<sup>2</sup>*
-
-> *KAIST<sup>1</sup>, University of Copenhagen<sup>2</sup>*
+> *<sup>1</sup>University of Copenhagen, <sup>2</sup>KAIST*
 
 ```
 @misc{pawar2024surveyculturalawarenesslanguage,
