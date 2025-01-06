@@ -110,13 +110,15 @@ Please check out the details in the paper [(Link)](https://arxiv.org/abs/2411.00
 - Social Norms-Grounded Machine Ethics in Complex Narrative Situation, <ins>COLING, 2022</ins> [[Paper](https://aclanthology.org/2022.coling-1.114/)]
 - Multi-domain Hate Speech Detection Using Dual Contrastive Learning and Paralinguistic Features, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.1025/)]
 - Generalizable Multilingual Hate Speech Detection on Low Resource Indian Languages using Fair Selection in Federated Learning, <ins>NAACL, 2024</ins> [[Paper](https://aclanthology.org/2024.naacl-long.400/)]
+- Self-Pluralising Culture Alignment for Large Language Models, <ins>arXiv, 2024</ins> [[Paper]](https://arxiv.org/abs/2410.12971).
 
 
 ##### Others
 - Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration, <ins>EMNLP, 2024</ins> [[Paper](https://arxiv.org/abs/2406.15951)] [[Code](https://github.com/BunsenFeng/modular_pluralism/tree/main)]
 - An Unsupervised Framework for Adaptive Context-aware Simplified-Traditional Chinese Character Conversion, <ins>LREC | COLING, 2024</ins> [[Paper](https://aclanthology.org/2024.lrec-main.118/)] [[Code](https://github.com/NLPInBLCU/STCC)]
 - Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?, <ins>C3NLP Workshop, 2024</ins> [[Paper](https://aclanthology.org/2024.c3nlp-1.5/)]
-
+- Policy Prototyping for LLMs: Pluralistic Alignment via Interactive and Collaborative Policymaking, <ins>arXiv, 2024</ins> [[Paper]](https://arxiv.org/abs/2409.08622).
+- Cultural Palette: Pluralising Culture Alignment via Multi-agent Palette, <ins>arXiv, 2024</ins> [[Paper]](https://arxiv.org/abs/2412.11167).
 
 #### Training-Free Methods
 - Investigating Cultural Alignment of Large Language Models, <ins>ACL, 2024</ins> [[Paper](https://arxiv.org/abs/2402.13231)] [[Code](https://github.com/bkhmsi/cultural-trends)]
